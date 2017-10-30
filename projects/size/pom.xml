@@ -1,0 +1,30 @@
+<project>
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>org.apache.ivy.example</groupId>
+        <artifactId>example-parent</artifactId>
+        <version>1.0</version>
+        <relativePath>../..</relativePath>
+    </parent>
+
+    <artifactId>size</artifactId>
+    <dependencies>
+        <dependency>
+            <groupId>org.apache.ivy.example</groupId>
+            <artifactId>version</artifactId>
+            <version>${example.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.ivy.example</groupId>
+            <artifactId>list</artifactId>
+            <version>${example.version}</version>
+        </dependency>
+    </dependencies>
+    <build>
+        <plugins>
+            <plugin>
+                <artifactId>maven-antrun-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
+</project>

@@ -25,4 +25,11 @@
         <dependency name="version" rev="latest.integration" conf="default"/>
         <dependency name="list" rev="latest.integration" conf="default->core"/>
     </dependencies>
+    <build>
+        <plugins>
+            <plugin>
+                <artifactId>maven-antrun-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
 </ivy-module>

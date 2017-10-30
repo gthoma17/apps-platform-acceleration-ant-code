@@ -34,4 +34,11 @@
         <dependency org="commons-collections" name="commons-collections" rev="3.1" conf="core->default"/>
         <dependency org="commons-cli" name="commons-cli" rev="1.0" conf="standalone->default"/>
     </dependencies>
+    <build>
+        <plugins>
+            <plugin>
+                <artifactId>maven-antrun-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
 </ivy-module>

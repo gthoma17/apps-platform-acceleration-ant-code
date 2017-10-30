@@ -34,4 +34,11 @@
         <dependency name="find" rev="latest.integration" conf="core"/>
         <dependency org="commons-cli" name="commons-cli" rev="1.0" conf="standalone->default"/>
     </dependencies>
+    <build>
+        <plugins>
+            <plugin>
+                <artifactId>maven-antrun-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
 </ivy-module>
